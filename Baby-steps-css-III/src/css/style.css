@@ -1,0 +1,45 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
+}
+
+.bg-blue-gray-header { background-color: #0f172a; } /* Slate 900 / Very dark blue gray */
+        
+.bg-cool-gray { background-color: #334155; }   /* Slate 700 */
+.bg-warm-gray { background-color: #78716c; }   /* Stone 500 */
+.bg-amber { background-color: #c2410c; }       /* Amber / Dark Orange-Brown tone */
+.bg-green { background-color: #14532d; }       /* Green 900 */
+
+.bg-gray { background-color: #374151; }        /* Gray 700 */
+.bg-red { background-color: #dc2626; }         /* Red 600 */
+.bg-yellow { background-color: #eab308; }      /* Yellow 500 */
+.bg-emerald { background-color: #065f46; }     /* Emerald 800 */
+
+.bg-true-gray { background-color: #27272a; }   /* Zinc 800 */
+.bg-orange { background-color: #ea580c; }      /* Orange 600 */
+.bg-lime { background-color: #4d7c0f; }        /* Lime 700 */
+.bg-teal { background-color: #0f766e; }        /* Teal 700 */
+
+.bg-fuchsia { background-color: #a21caf; }     /* Fuchsia 700 */
+.bg-pink { background-color: #be185d; }        /* Pink 700 */
+.bg-rose { background-color: #f43f5e; }        /* Rose 500 */
+
+.bg-purple { background-color: #7e22ce; }      /* Purple 700 */
+.bg-violet { background-color: #6d28d9; }      /* Violet 700 */
+.bg-indigo { background-color: #2e1065; }      /* Indigo 950/900 dark */
+.bg-blue { background-color: #1d4ed8; }        /* Blue 700 */
+
+.bg-sky { background-color: #0284c7; }         /* Sky 600 */
+.bg-cyan { background-color: #0e7490; }        /* Cyan 700 */
+
+.color-box {
+    display: flex;
+    align-items: flex-start;
+    padding: 1.25rem 1.5rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #ffffff;
+    min-height: 4.5rem;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+}
